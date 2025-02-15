@@ -145,7 +145,7 @@ body{
 }
 
 .projects > .tables > .tab{
-    height: 300px !important;
+    height: 320px !important;
     margin: 30px 40px !important;
 }
 
@@ -160,8 +160,8 @@ body{
 .tables{
     display: flex;
     justify-content:center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 180px;
+    margin-right: 180px;
 }
 
 
