@@ -30,7 +30,7 @@ body{
 .my-portfolio{
     background-color: #4B4B4B;
     height: 100px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .my-portfolio h3:hover{
@@ -42,7 +42,7 @@ body{
 .my-portfolio h3{
     font-family: "Quicksand", sans-serif;
     color: #a5d6a7;
-    font-size: 30px;
+    font-size: 2vw;
     text-align: center;
     padding-top: 25px;
     transition: 0.3s;
@@ -57,7 +57,7 @@ body{
 
 .introduction > .name{
     color: black;
-    font-size: 25px;
+    font-size: 2vw;
     position: absolute;
     margin-top: 190px;
 }
@@ -71,29 +71,32 @@ body{
 
 .introduction > .intro{
     font-family: "Poppins", sans-serif ;
+    text-align: center;
     color: black;
-    font-size: 20px;
+    font-size: 1.5vw;
     margin: 255px 20px 30px 10px;
+    text-align-last: center;
 }
 
 .about-me h3{
     font-family: "Montserrat", sans-serif ;
     font-weight: 200;
     text-align: center;
-    font-size: 30px;
+    font-size: 2vw;
+    text-decoration-line: underline;
     margin: 0;
 }
 
 .about-me > .tab{
-    height: 150px !important;
-    margin: 30px 200px !important;
+    height: 80px !important;
+    margin: 30px 100px !important;
 }
 
 .about-me p{
     font-family: "Poppins", sans-serif ;
     font-weight: 400;
     text-align: center;
-    font-size: 16px;
+    font-size: 1vw;
     color: #333;
     line-height: 1.6;
     padding-bottom: 0px;
@@ -108,7 +111,7 @@ body{
 
 .head li{
     display: inline-block;
-    font-size:16px;
+    font-size:1vw;
     margin-right: 20px;
     background-color: lightgray;
     border-radius: 10px;
@@ -132,7 +135,8 @@ body{
     font-family: "Montserrat", sans-serif ;
     font-weight: 200;
     text-align: center;
-    font-size: 30px;
+    font-size: 2vw;
+    text-decoration-line: underline;
     margin:0;
 }
 
@@ -140,12 +144,13 @@ body{
     font-family: "Montserrat", sans-serif ;
     font-weight: 200;
     text-align: center;
-    font-size: 30px;
+    font-size: 2vw;
+    text-decoration-line: underline;
     margin:0;
 }
 
 .projects > .tables > .tab{
-    height: 300px !important;
+    height: 200px !important;
     margin: 30px 40px !important;
 }
 
@@ -153,7 +158,8 @@ body{
     font-family:"Nunito", sans-serif;
     font-weight: 600;
     text-align: center;
-    font-size: 18px;
+    font-size: 1vw;
+    text-decoration-line: underline;
     margin: 10px 10px 0px 10px;
 }
 
@@ -167,10 +173,13 @@ body{
 
 .tab{
     background-color: #b2dfb2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-radius: 5px;
     margin: 30px 20px 30px 20px;
     padding: 10px 10px;
-    height: 230px;
+    height: 200px;
     box-shadow: 5px 5px 20px #888888;
 }
 
@@ -178,7 +187,7 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     text-align: center;
-    font-size: 16px;
+    font-size: 1vw;
     color: #333;
     line-height: 1.6;
 }
@@ -186,13 +195,15 @@ body{
 .tab li{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1vw;
     color: #333;
     line-height: 1.6;
     margin-top:10px;
 }
 
-
+.tab ul{
+    padding-left: 20px;
+}
 
 .contact{
     margin-top: 50px;
