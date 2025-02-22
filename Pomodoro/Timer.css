@@ -122,7 +122,8 @@ button:active {
         justify-content: center;
         align-items: center;
     }
-    .h5{
-        padding-right: 6vw;
+    .checkbox p{
+        font-size: 2.25vw;
     }
+    
 }

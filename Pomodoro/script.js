@@ -1,3 +1,10 @@
+document.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+});
+
+
+
+
 let work_m=document.getElementById("work_m");
 let work_sec=document.getElementById("work_s");
 
