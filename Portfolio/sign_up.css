@@ -48,7 +48,7 @@ body{
     text-align: center;
     border: none;
     border-radius: 20px;
-    font-weight:300px;
+    font-weight:300;
     padding: 5px 60px;
     font-size: 17px;
 }
@@ -93,16 +93,18 @@ body{
 
 
 #icon1 {
+    position: absolute;
     cursor: pointer;
     height: 20px;
     width: auto;
-    transform: translateX(298px) translateY(-30px);
+    transform: translateX(-30px) translateY(7px);
 }
 
 #icon2 {
+    position: absolute;
     cursor: pointer;
     height: 20px;
     width: auto;
-    transform: translateX(298px) translateY(-27px);
+    transform: translateX(-30px) translateY(7px);
 }
 

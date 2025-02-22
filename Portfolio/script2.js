@@ -10,11 +10,11 @@ function toggle_password(pass_Id,icon){
     let password=document.getElementById(pass_Id);
     if(password.type==="password"){
         password.type="text";
-        icon.src="opened_eye.png";
+        icon.src="images/opened_eye.png";
     }
     else{
         password.type="password";
-        icon.src="closed_eye.png";
+        icon.src="images/closed_eye.png";
     }
 
 }

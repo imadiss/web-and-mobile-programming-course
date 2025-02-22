@@ -83,8 +83,9 @@ body{
 }
 
 #icon {
+    position: absolute;
     cursor: pointer;
     height: 20px;
     width: auto;
-    transform: translateX(298px) translateY(-27px);
+    transform: translateX(-30px) translateY(0px);;
 }
