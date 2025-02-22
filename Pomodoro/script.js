@@ -67,7 +67,7 @@ function reset_click(){
         work_sec.textContent="00";
         short_m.textContent=5;
         short_sec.textContent="00";
-        long_m.textContent=5;
+        long_m.textContent=15;
         long_sec.textContent="00";
         c=0;
         clearInterval(interval);
