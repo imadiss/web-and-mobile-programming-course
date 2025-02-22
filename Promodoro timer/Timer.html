@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="Timer.css">
+</head>
+
+
+<body>
+    
+    <h1>Pomodoro Timer</h1>
+    <div class="tab">
+        <div class="checkbox">
+            <input type="checkbox" id="checkbox">
+            <p>Long Break</p>
+        </div>
+        <div id="msg_start"></div>
+        <div id="msg_reset"></div>
+        <div id="msg_pause"></div>
+        <div id="msg_long"></div>
+        <div class="time">
+            <div class="work">
+                <h5>Work:</h5>
+                <ul id="work_list">
+                    <li id="work_m">00</li>
+                    <li>:</li>
+                    <li id="work_s">10</li>
+                </ul>
+            </div>
+            <div class="cycles">
+                <h5>Cycles:</h5>
+                <ul>
+                    <li id="cycle">0</li>
+                </ul>
+            </div>
+            <div class="short_break">
+                <h5>Short Break:</h5>
+                <ul>
+                    <li id="short_m">00</li>
+                    <li>:</li>
+                    <li id="short_s">5</li>
+                </ul>
+            </div>
+
+            <div class="Long break">
+                <h5>Long Break:</h5>
+                <ul>
+                    <li id="long_m">00</li>
+                    <li>:</li>
+                    <li id="long_s">5</li>
+                </ul>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="start">Start</button>
+            <button id="reset">Reset</button>
+            <button id="pause">Pause</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
