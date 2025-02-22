@@ -114,3 +114,15 @@ button:active {
 #msg_long{
     margin: 0;
 }
+
+@media screen and (max-width: 480px) {
+    .time{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h5{
+        padding-right: 6vw;
+    }
+}
