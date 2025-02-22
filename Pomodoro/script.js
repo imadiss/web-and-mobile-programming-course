@@ -1,5 +1,5 @@
-document.addEventListener("contextmenu", function(e) {
-    e.preventDefault();
+document.addEventListener("contextmenu", function(g) {
+    g.preventDefault();
 });
 
 
@@ -20,7 +20,7 @@ let start=document.getElementById("start");
 let reset=document.getElementById("reset");
 let pause=document.getElementById("pause");
 let checkbox=document.getElementById("checkbox");
-let sound=new Audio("Audio1.wav");
+let sound=new Audio("Audio.wav");
 let msg_work=document.getElementById("msg_work");
 let msg_short_break=document.getElementById("msg_short_break");
 let msg_long_break=document.getElementById("msg_long_break");
