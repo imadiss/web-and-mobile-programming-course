@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94deb349-b911-4c4e-b057-cd2bd4596848" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Portfolio/Design.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/images/Design.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/Email.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/images/Email.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/GitHub.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/images/GitHub.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/LinkedIn.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/images/LinkedIn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/closed_eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/images/closed_eye.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/images/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/opened_eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/images/opened_eye.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/script2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/script2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/sign_up.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/sign_up.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/sign_up.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/sign_up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

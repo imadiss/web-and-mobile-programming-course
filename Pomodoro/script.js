@@ -53,7 +53,7 @@ function reset_click(){
         interval=undefined;
     }
     else{
-        msg_reset.textContent="Timer is Already Reseted";
+        msg_reset.textContent="The Timer Has Already Been Reset!";
         msg_reset.style.color="red";
         msg_reset.style.fontFamily="poppins";
         setTimeout(function (){
@@ -71,7 +71,7 @@ function pause_click(){
         interval=undefined;
     }
     else{
-        msg_pause.textContent="Timer is Already Paused";
+        msg_pause.textContent="Timer Has Already Been Paused!";
         msg_pause.style.color="red";
         msg_pause.style.fontFamily="poppins";
         setTimeout(function(){
@@ -106,7 +106,7 @@ function execution(){
         interval=setInterval(Timing,1000);
     }
     else{
-        msg_start.textContent="Timer is Already Started!";
+        msg_start.textContent="Timer Has Already Been Started!";
         msg_start.style.color="red";
         msg_start.style.fontFamily="poppins";
         setTimeout(function (){
@@ -129,7 +129,7 @@ function Timing(){
     }
 
     else if(work_sec.textContent==0 && work_m.textContent==0){
-            if (short_m.textContent==0 && short_sec.textContent==5 && (checkbox.checked || long_sec.textContent!=5)){
+            if (short_m.textContent==0 && short_sec.textContent==5 && (checkbox.checked || long_sec.textContent!=15)){
                 
                 if(long_m.textContent!=0 && long_sec.textContent==0){
                     if(long_m.textContent<=10) long_m.textContent="0"+String(long_m.textContent-1);
