@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&family=Source+Sans+Pro:wght@400&family=Muli:wght@400&family=Comfortaa:wght@400&family=Quicksand:wght@400&display=swap');
 
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: black;
     height: 100vh;
@@ -10,6 +14,18 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: slideIn 2s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 h1 {
@@ -22,9 +38,10 @@ h1 {
 ul{
     display: flex;
     list-style: none;
-    margin-right: 0px;
+    padding-right: 7.5vw;
     font-size: 4vw;
     color: #9e9e9e;
+    box-sizing: border-box;
 }
 
 .tab{
@@ -32,10 +49,10 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #073614;
+    background-color: #04230d;
     border-radius: 20px;
     height: 500px;
-    width: 1000px ;
+    width: 85vw ;
     margin-bottom: 100px;
 }
 
@@ -51,17 +68,12 @@ li{
     font-family: "poppins", sans-serif ;
 }
 
-#work_list{
-    margin-right: 100px;
-}
-
 h5{
     font-family: "poppins", sans-serif ;
     font-size: 2vw;
     text-align: center;
     color: #9e9e9e;
-    padding-right: 30px;
-    margin-right: 40px;
+    padding-right: 4.2vw;
     margin-top: 5px;
 }
 
@@ -76,6 +88,11 @@ button{
     cursor: pointer;
     text-align: center;
     background-color: #9e9e9e;
+}
+
+button:active {
+    transform: scale(0.95);
+    transition: transform 0.05s;
 }
 
 .checkbox{
