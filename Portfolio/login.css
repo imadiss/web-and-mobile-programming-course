@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Open+Sans:wght@400&family=Lato:wght@400&family=Raleway:wght@400&family=Rubik:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&family=Source+Sans+Pro:wght@400&family=Muli:wght@400&family=Comfortaa:wght@400&family=Quicksand:wght@400&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: #a5d6a7;
+    animation: slideIn 2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.login{
+    background-color: #b2dfb2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px #888888;
+    border-radius: 20px;
+    padding: 40px;
+    gap: 40px;
+    height: 250px;
+    width: 300px;
+}
+.login input{
+    background-color: lightgray;
+    font-family: "poppins", sans-serif ;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    font-weight:300px;
+    padding: 5px 60px;
+    font-size: 17px;
+    margin-top: -20px;
+}
+
+.login h3{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif ;
+    color: #4B4B4B;
+    margin-top: 10px;
+}
+
+.login button{
+    background-color: #2E8B57;
+    font-family: "poppins", sans-serif ;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 0px 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.login a{
+    color: #2E8B57;
+    margin-top: -30px;
+}
+
+.login input::placeholder{
+    font-size: 18px;
+}
+
+#icon {
+    cursor: pointer;
+    height: 20px;
+    width: auto;
+    transform: translateX(298px) translateY(-27px);
+}

@@ -132,6 +132,34 @@ body{
     color: black;
 }
 
+.sign-up-login{
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    gap: 20px;
+}
+
+.sign-up, .login{
+    background-color: #2E8B57;
+    border-radius: 10px;
+    transition:0.3s;
+}
+
+.sign-up a, .login a{
+    font-family: "poppins", sans-serif ;
+    font-weight: 200;
+    font-size:1vw;
+    text-decoration:none;
+    text-align: center;
+    color:white;
+    padding:0px 10px;
+}
+
+.sign-up:hover, .login:hover{
+    transform: scale(1.1);
+}
+
 .skills h3{
     font-family: "Montserrat", sans-serif ;
     font-weight: 200;

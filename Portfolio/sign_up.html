@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="sign_up.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Sign up</title>
+</head>
+
+<body>
+    <form class="sign-up" onsubmit="event.preventDefault()">
+        <h3>Create account</h3>
+        <input type="text" placeholder="Enter username" required>
+        <input type="text" placeholder="Enter first name" required>
+        <input type="text" placeholder="Enter last name" required>
+        <input type="email" placeholder="Enter email" required>
+        <div id="msg_nbr"></div>
+        <input type="tel" placeholder="Enter phone number (+212)" id="nbr" required>
+        <div id="msg_short"></div>
+        <div class="pass-box">
+            <input type="password" placeholder="Enter password" id="pass" required>
+            <img id="icon1" src="closed_eye.png" onclick="toggle_password('pass',this)">
+        </div>
+        <div id="msg_conf"></div>
+        <div class="conf-box">
+            <input type="password" placeholder="Confirm password" id="pass_conf" required>
+            <img id="icon2" src="closed_eye.png" onclick="toggle_password('pass_conf',this)">
+        </div>
+        <button type="submit" onclick="validation()">Sign up</button>
+        <a href="login.html">Already have an account?</a>
+    </form>
+</body>

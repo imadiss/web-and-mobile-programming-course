@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="script2.js"></script>
+</head>
+
+<body>
+    <form class="login" onsubmit="event.preventDefault()">
+        <h3>Login</h3>
+        <input type="text" placeholder="Enter username" id="username" required>
+        <div class="pass-box">
+            <input type="password" placeholder="Enter password" id="password" required>
+            <img id="icon" src="closed_eye.png" onclick="toggle_password('password',this)">
+        </div>
+        <button type="submit" onclick="get_user()">Login</button>
+        <a href="sign_up.html">Don't have an account?</a>
+    </form>
+</body>
