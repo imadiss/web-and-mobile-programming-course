@@ -123,7 +123,45 @@ button:active {
         align-items: center;
     }
     .checkbox p{
-        font-size: 2.25vw;
+        font-size: 3vw;
+    }
+    h5 {
+        margin: 0;
+        font-size: 4vw;
+    }
+    ul{
+        font-size: 4vw;
+        padding: 0;
+        margin: 0;
+    }
+    .work{
+        display: inline-flex;
+        flex-direction: row;
+        margin-bottom: 3vw;
+    }
+    .cycles{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 3vw;
+    }
+    .short_break{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 3vw;
+    }
+    .long_break{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 3vw;
+    }
+    button{
+        font-size: 3.4vw;
+        margin: 1vw 1vw;
+        padding: 3vw 6vw;
+    }
+    .tab{
+        padding-bottom: 3px;
+        height: 350px;
     }
     
 }
