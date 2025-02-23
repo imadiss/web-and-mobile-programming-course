@@ -1,6 +1,12 @@
-document.addEventListener("contextmenu", function(g) {
-    g.preventDefault();
+document.addEventListener("contextmenu", function(event) {
+    event.preventDefault();
 });
+
+document.addEventListener("keydown",function(event){
+    if (event.key=="F12" || (event.ctrlKey && event.shiftKey && event.key.toUpperCase()=="I")){
+        event.preventDefault();
+    }
+})
 
 
 
