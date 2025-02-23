@@ -53,7 +53,7 @@ let msg_pause=document.getElementById("msg_pause");
 
 
 function reset_click(){
-    if(work_m.textContent==25 && work_sec.textContent==0 && short_m.textContent==5 && short_sec.textContent==0 &&  long_m.textContent==5 && long_sec.textContent==0 && c==0){
+    if(work_m.textContent==25 && work_sec.textContent==0 && short_m.textContent==5 && short_sec.textContent==0 &&  long_m.textContent==15 && long_sec.textContent==0 && c==0){
         
         msg_reset.textContent="The Timer Has Already Been Reset!";
         msg_reset.style.color="red";
