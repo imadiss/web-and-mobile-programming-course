@@ -1,0 +1,126 @@
+/* styles.css */
+
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+/* Optional: Add a transition for input focus and button hover effects */
+input, button {
+    transition: all 0.3s ease;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  th {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  tr {
+    background-color: #fdfdfd;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  td {
+    padding: 12px 15px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+
+  .add{
+    width: 100px;
+  }
+
+  label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+  }
