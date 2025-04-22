@@ -3,7 +3,7 @@
 
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     background-color:black;
     display: flex;
     flex-direction: column;
@@ -76,4 +76,13 @@ p{
     font-size: 1vw;
     text-align: center;
     margin: 0;
+}
+
+img{
+    height: 200px;
+}
+
+#img{
+    background-color: #0f2e0b;
+    border-radius: 0;
 }

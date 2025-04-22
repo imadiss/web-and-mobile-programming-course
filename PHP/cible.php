@@ -8,7 +8,7 @@
         $conf=$_POST["conf"];
         
         $errors=[];
-        if( !(preg_match('/[A-Z]+[a-z]+[0-9]+[\*\#\_]+/',$pass)) ) $errors["pass"]="Password must contains an upper case, lower<br> case, number and special characters (*_#).";
+        if( !(preg_match('/.*[A-Z]+.*[a-z]+.*[0-9]+.*[\*\#\_]+/',$pass)) ) $errors["pass"]="Password must contains an upper case, lower<br> case, number and special characters (*_#).";
         if(strlen($pass)<6) $errors["pass"]="Password must contains at least 6 characters.";
 
         if($conf!==$pass && !(isset($errors["pass"]))) $errors["conf"]="Password cannot be confirmed";
@@ -50,6 +50,20 @@
             if(isset($errors["conf"])) echo"<p>".$errors['conf']."</p>";
             ?>
             <input type=text placeholder="Confirm Password" name="conf" value=<?php echo "$conf" ?> >
+
+            <?php
+            if(isset($_FILES["img"])){
+                    $image=$_FILES["img"];
+                    $myDir = "images/";
+                    if (!is_dir($myDir)) {
+                        mkdir($myDir);
+                    }
+                    $targetFile = $myDir.basename($image["name"]);
+                    if (move_uploaded_file($image["tmp_name"], $targetFile)) {
+                            echo "<img src='$targetFile'>";
+                        }
+                    }
+            ?>
             <button>submit</button>
         </form>
     </div>
